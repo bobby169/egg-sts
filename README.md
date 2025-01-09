@@ -20,7 +20,7 @@
 [download-image]: https://img.shields.io/npm/dm/egg-sts.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-sts
 
-egg plugin for [https://github.com/aliyun/nodejs-sts-sdk](nodejs-sts-sdk)
+egg plugin for [https://github.com/aliyun/nodejs-sts-sdk](https://github.com/aliyun/nodejs-sts-sdk)
 
 ## Install
 
@@ -59,7 +59,7 @@ see [config/config.default.js](https://github.com/aliyun/nodejs-sts-sdk) for mor
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/bobby169/egg/issues).
 
 ## License
 
