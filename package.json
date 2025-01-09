@@ -1,6 +1,6 @@
 {
   "name": "egg-sts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "egg plugin for @alicloud/sts-sdk",
   "eggPlugin": {
     "name": "sts"
