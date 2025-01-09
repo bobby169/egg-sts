@@ -1,0 +1,55 @@
+{
+  "name": "egg-sts",
+  "version": "1.0.3",
+  "description": "egg plugin for @alicloud/sts-sdk",
+  "eggPlugin": {
+    "name": "sts"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "dependencies": {
+    "@alicloud/sts-sdk": "^1.0.2"
+  },
+  "devDependencies": {
+    "egg": "^3",
+    "egg-bin": "^5",
+    "egg-ci": "^2",
+    "egg-mock": "^5",
+    "eslint": "^8",
+    "eslint-config-egg": "^12"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov"
+  },
+  "files": [
+    "lib",
+    "app",
+    "config",
+    "app.js",
+    "agent.js",
+    "index.d.ts"
+  ],
+  "ci": {
+    "version": "16, 18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobby169/egg-sts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bobby169/egg/issues"
+  },
+  "homepage": "https://github.com/bobby169/egg-sts#readme",
+  "author": "bobby169",
+  "license": "MIT"
+}
